@@ -1,5 +1,6 @@
-# تجاهل ملفات الويب في حساب لغة البرمجة
-web/* linguist-vendored
+# تجاهل مجلدات الويب والملفات الناتجة عن البناء
+build/** linguist-vendored
+web/** linguist-vendored
 
-# إجبار GitHub على احتساب ملفات دارت كلغة أساسية
+# إجبار GitHub على احتساب ملفات دارت كلغة أساسية للمشروع
 *.dart linguist-language=Dart
